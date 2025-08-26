@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>waypayr</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <!-- Logo -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="logo-img">
+                        <a href="./">
+                            <img src="./assets/images/logo.png" alt="Pickimmz Travel Logo" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-6 col-md-8 col-lg-10 d-flex justify-content-end align-items-center">
+
+                    <!-- Toggle Button (visible on small screens) -->
+                    <button class="menu-toggle " aria-label="Open Menu">☰</button>
+
+                    <nav class="main-nav" aria-label="Main navigation">
+                        <button class="menu-close " aria-label="Close Menu">✕</button>
+                        <ul class="row list-unstyled justify-content-end m-0">
+                            <li class="col-auto"><a href="index" class="active">Home</a></li>
+                            <li class="col-auto"><a href="destinations">Destinations</a></li>
+                            <li class="col-auto"><a href="things-to-do">Things To Do</a></li>
+                            <li class="col-auto"><a href="itineraries">Itineraries</a></li>
+                            <li class="col-auto"><a href="where-to-stay">Where To Stay</a></li>
+                            <li class="col-auto"><a href="the-feed">The Feed</a></li>
+                            <li class="col-auto"><a href="about">About</a></li>
+                            <li class="col-auto"><a href="contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="banner-section d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="banner-main text-center">
+                    <h2>Explore <span class="theme">New Jersey</span> with Way Payr</h2>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="after-banner">
+            <div class="container">
+                <div class="after-banner-main">
+                    <p>New Jersey is more than a stop between cities — it’s a destination in its own right. From the
+                        casino buzz of Atlantic City to the calm shores of Cape May, from small-town escapes to skyline
+                        views across the Hudson, there’s something here for every kind of traveler.</p>
+                    <p>Way Payr is built to help you experience it all. Our travel guides highlight the best places to
+                        go, where to stay, and what to do — with real advice, local insight, and zero fluff.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section class="destinations-section ">
+            <div class="container">
+
+                <!-- Heading -->
+
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold theme">Top Destinations</h2>
+
+                </div>
+
+                <!-- Grid -->
+                <div class="row g-4">
+
+                    <!-- Destination 1 -->
+                    <div class="col-12 col-md-6 col-lg-8">
+                        <div class="destination-card">
+                            <img src="./assets/images/atlantic-city.jpg" class="img-fluid w-100" alt="Atlantic City">
+                            <div class="destination-overlay">
+                                <h5>Atlantic City</h5>
+                                <p>Classic boardwalk energy, casino resorts, nightlife</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <h5>Cape May</h5>
+                                <p>Historic streets, romantic stays, whale watching</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/jersy-beach.jpg" class="img-fluid w-100" alt="Jersey Shore">
+                            <div class="destination-overlay">
+                                <h5>Jersey Shore</h5>
+                                <p>Beach towns, summer events, coastal food</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <h5>Hoboken</h5>
+                                <p>Local spots, skyline views, a fast link to NYC</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/princeton.jpg" class="img-fluid w-100" alt="Princeton">
+                            <div class="destination-overlay">
+                                <h5>Princeton</h5>
+                                <p>University charm, art, gardens, quiet escapes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="text-center mt-4">
+                    <p>Each destination page offers travel tips, standout attractions, nearby spots, and seasonal
+                        highlights to help you plan the perfect trip.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <!-- <section class="what-todo">
+            <div class="container">
+                <div class="what-todo-main">
+
+                    <div class="text-center mb-4">
+                        <h2 class="fw-bold theme">What To Do in New Jersey</h2>
+                        <p>Whether you’re here for a weekend or a full road trip, New Jersey offers a wide mix of
+                            activities:</p>
+                    </div>
+                    <div class="activity-slider">
+
+
+                        <div class="activity-card" style="background-image: url('./assets/images/nj-beach.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Beach days and coastal towns</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity-card" style="background-image: url('./assets/images/party.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Casino nights and live shows</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity-card" style="background-image: url('./assets/images/hiking.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Hiking trails and state parks</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity-card" style="background-image: url('./assets/images/local-market.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Food tours and local markets</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity-card" style="background-image: url('./assets/images/meuseum.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Historic sites and museums</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity-card" style="background-image: url('./assets/images/outdoor.jpg');">
+                            <div class="activity-overlay"></div>
+                            <div class="activity-content">
+                                <h5 class="activity-title">Family-friendly attractions and outdoor fun</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="whattodo-last">
+                        <p>Start with our <a href="#" class="theme">Things To Do</a> and <a href="#"
+                                class="theme">Itineraries</a> pages to get inspired and build your route.</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="todo hide">
+            <div class="container">
+                <div class="text-center mb-4 ">
+                    <h2 class="fw-bold theme">What To Do in New Jersey</h2>
+                    <p>Whether you’re here for a weekend or a full road trip, New Jersey offers a wide mix of
+                        activities:</p>
+                </div>
+            </div>
+            <div class="todo-main">
+
+                <div class="todo-item" style="background-image: url('./assets/images/nj-beach.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Beach days and coastal towns</h2>
+                    </div>
+                </div>
+
+                <div class="todo-item" style="background-image: url('./assets/images/party.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Casino nights and live shows</h2>
+                    </div>
+                </div>
+
+                <div class="todo-item" style="background-image: url('./assets/images/hiking.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Hiking trails and state parks</h2>
+                    </div>
+                </div>
+
+                <div class="todo-item" style="background-image: url('./assets/images/local-market.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Food tours and local markets</h2>
+                    </div>
+                </div>
+
+                <div class="todo-item" style="background-image: url('./assets/images/meuseum.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Historic sites and museums</h2>
+                    </div>
+                </div>
+
+                <div class="todo-item" style="background-image: url('./assets/images/outdoor.jpg');">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h2>Family-friendly attractions and outdoor fun</h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="text-center mt-4 last-line">
+                    <p>Start with our <a href="#" class="theme">Things To Do</a> and <a href="#"
+                            class="theme">Itineraries</a> pages to get inspired and build your route.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="plan py-5 hide">
+            <div class="container">
+                <div class="plan-main">
+                    <div class="text-center mb-4 pt-5 first-line">
+                        <h2 class="fw-bold theme">Plan Your Visit</h2>
+                        <p>Everything you need to travel with confidence:</p>
+                    </div>
+
+                    <!-- Slick slider wrapper -->
+                    <div class="plan-slider">
+                        <!-- Card 1 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/bus.png" alt="Transport" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Local transport options and routes</h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/calendar.png" alt="Calendar" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Best times of year to visit</h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/suitcase.png" alt="Packing" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Packing advice by season</h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/hotel.png" alt="Hotel" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Tips for booking stays</h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/location.png" alt="Day Trips" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Short stays and day trips from major hubs</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4 last-line">
+                        <p>Our guides focus on what matters — clear, useful info that helps you make the most of your
+                            time in New Jersey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="from-blog py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold theme">From the Blog</h2>
+                    <p>Recent travel ideas and local stories:</p>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/nj-hidden-gems.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">10 Hidden Gems to Explore in New
+                                        Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/atlantic-city-1.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">How to Spend 48 Hours in
+                                        Atlantic City</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/small-town.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">The Best Small Towns for a
+                                        Weekend Escape</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <p>We add new articles regularly — follow along and find your next idea</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="summer-deal my-5">
+            <div class="container">
+                <div class="row g-0 align-items-center promo-box">
+
+                    <!-- Left Side -->
+                    <div class="col-md-6 text-white deal-left p-5">
+                        <h2 class="fw-bold mb-3">Get Inspired, Then Go</h2>
+                        <p class="fs-5">
+                            Way Payr was built to show off what New Jersey really has to offer.
+                            Use our guides to plan better, go deeper, and explore more of a state
+                            that surprises at every turn.
+                        </p>
+                    </div>
+
+                    <!-- Right Side -->
+                    <div class="col-md-6 deal-right">
+                        <img src="./assets/images/get-inspired.jpg" alt="Pyramids"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+        <section class="newsletter py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h3 class="fw-bold pb-2">Sign Up for Updates</h3>
+                        <p class="text-muted pb-3">Get fresh travel guides, seasonal trip ideas, and itinerary tips sent
+                            straight to your inbox.</p>
+
+                        <form class="d-flex justify-content-center mt-3">
+                            <input type="email" class="form-control newsletter-input" placeholder="Your Email Address"
+                                required>
+                            <button type="submit" class="btn btn-subscribe">Join the list →</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- Disclaimer Section Start -->
+        <section class="disclaimer_sec behind_bar ">
+            <div class="container">
+                <div class="disclaimer_wrap">
+                    <h3 class="mb-4 text_white">
+                        Disclaimer
+                    </h3>
+                    <p class="text_white">
+                        The information provided on waypayr.com is for general travel inspiration and informational
+                        purposes only. While we strive to ensure accuracy and up-to-date content, details such as
+                        prices, availability, and regulations may change without notice. Way Payr does not own or
+                        operate any of the listed services or accommodations and is not liable for any changes,
+                        inaccuracies, or issues arising from third-party bookings or experiences. Always confirm
+                        directly with providers before making travel arrangements. By using this site, you accept full
+                        responsibility for your travel decisions and acknowledge that Way Payr is not accountable for
+                        any losses or inconveniences incurred.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Disclaimer Section End -->
+
+        <!-- Footer Start  -->
+        <footer class="site-footer behind_bar ">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-top pt-5">
+                        <div class="footer-logo">
+                            <a href="./" class="mb-3">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+
+                        </div>
+                        <div class="footer-links">
+                            <h4>Menu Links</h4>
+                            <ul>
+                                <li class="col-auto"><a href="index" class="active">Home</a></li>
+                                <li class="col-auto"><a href="destinations">Destinations</a></li>
+                                <li class="col-auto"><a href="things-to-do">Things To Do</a></li>
+                                <li class="col-auto"><a href="itineraries">Itineraries</a></li>
+                                <li class="col-auto"><a href="where-to-stay">Where To Stay</a></li>
+                                <li class="col-auto"><a href="the-feed">The Feed</a></li>
+                                <li class="col-auto"><a href="about">About</a></li>
+                                <li class="col-auto"><a href="contact">Contact</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="footer-contact">
+                            <h4>Let's Connect</h4>
+                            <ul class="connect_links">
+                                <li>
+                                    <a href="mailto:info@waypayr.com" class="footer_mail mt-2">info@waypayr.com</a>
+                                </li>
+
+                            </ul>
+
+
+                            <div class="social-icons mt-4">
+
+                                <ul>
+                                    <li><a href="https://www.facebook.com/thematua" target="_blank"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                <path
+                                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://www.instagram.com/thematuabar/#" target="_blank"><svg
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                                <path
+                                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://x.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 512 512">
+                                                <path
+                                                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <h4>Other Links</h4>
+                            <ul>
+                                <li><a href="privacy-policy">Privacy Policy</a></li>
+                                <li><a href="personal-data-policy">Personal Information Policy </a></li>
+                                <li><a href="terms-conditions">Terms & Conditions</a></li>
+                                <li><a href="refund-policy">Refunds Policy </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>
+                            © 2025 <span class="theme"> waypayr.com </span> All rights reserved.
+                        </p>
+                        <div class="ssl_logo">
+                            <div class="ssl_logo_inner bg_center_contain"
+                                style="background-image: url(assets/images/ssl.png);">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menuClose = document.querySelector(".menu-close");
+        const mainNav = document.querySelector(".main-nav");
+
+        menuToggle.addEventListener("click", () => {
+            mainNav.classList.add("open");
+        });
+
+        menuClose.addEventListener("click", () => {
+            mainNav.classList.remove("open");
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.activity-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: true,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: { slidesToShow: 1 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.plan-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 992, // tablets
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 576, // mobile
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.todo-main').slick({
+                dots: true,
+                infinite: true,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 1 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
