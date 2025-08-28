@@ -53,7 +53,7 @@ h6 {
 
 .theme {}
 
-.hide{
+.hide {
     overflow: hidden;
 }
 
@@ -179,7 +179,8 @@ nav li a {
     font-size: 1.125rem;
     line-height: 1.6;
 }
-.internal-banner{
+
+.internal-banner {
     min-height: 65vh;
 }
 
@@ -192,6 +193,7 @@ nav li a {
 
 
 .after-banner {}
+
 .after-banner .after-banner-main {
     background: linear-gradient(to bottom, #f2704e, #f8a073);
     /* max-width: 800px; */
@@ -204,6 +206,7 @@ nav li a {
     z-index: 999;
     margin-top: -50px;
 }
+
 .after-banner p {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -412,6 +415,7 @@ nav li a {
 
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
 .todo {
     padding: 100px 0 0;
 }
@@ -520,14 +524,17 @@ nav li a {
 .icon {
     margin: 0 auto;
 }
+
 .plan-card h5 {
     font-size: 18px !important;
     padding-top: 10px;
 }
+
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
     /* height: 230px; */
 }
+
 .slick-track {
     margin-top: 20px;
 }
@@ -557,14 +564,17 @@ nav li a {
     font-size: 18px;
     color: #333;
 }
-.blog{
+
+.blog {
     transition: color 0.3s ease;
 }
-.blog:hover{
+
+.blog:hover {
     color: #f76b47;
-    
+
 }
-.last-line{
+
+.last-line {
     padding-top: 40px;
 }
 
@@ -899,7 +909,7 @@ nav li a {
     width: 100%;
     height: 600px;
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     object-fit: cover;
 }
 
@@ -927,7 +937,7 @@ nav li a {
     border: 1px solid #ddd;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
     background: #fff;
     transition: all 0.3s ease;
@@ -936,7 +946,7 @@ nav li a {
 /* Hover Effect */
 .casino-card:hover {
     transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.2);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
 }
 
 /* Image styling */
@@ -946,7 +956,7 @@ nav li a {
     max-width: 400px;
     height: 100%;
     overflow: hidden;
-   
+
     max-height: 300px;
 
 }
@@ -988,7 +998,8 @@ nav li a {
 
 /* Text color change on hover */
 .casino-card:hover .casino-card-content h5 {
-    color: #d35400; /* orange highlight */
+    color: #d35400;
+    /* orange highlight */
 }
 
 .casino-card:hover .casino-card-content p {
@@ -999,6 +1010,7 @@ nav li a {
     text-align: center;
     padding: 20px 0;
 }
+
 .see-full {
     display: inline-block;
     font-size: 1rem;
@@ -1011,7 +1023,479 @@ nav li a {
 }
 
 .see-full:hover {
-    color: #d35400;        /* orange hover */
+    color: #d35400;
+    /* orange hover */
     text-decoration: underline;
-    transform: translateX(4px); /* small slide effect */
+    transform: translateX(4px);
+    /* small slide effect */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-card-img {
+    width: 100%;
+    /* overflow: visible; */
+    max-width: 100%;
+    min-height: 290px;
+}
+
+.new-card-img img {
+    width: 100%;
+    height: 250px;
+    /* uniform image height */
+    object-fit: cover;
+    /* ensures cropping, not stretching */
+    display: block;
+
+}
+
+.new-card-content {
+    padding: 15px;
+}
+
+
+
+
+
+
+.about-paragraph-section {
+    background: #fff;
+    /* keep it clean, change if needed */
+}
+
+.about-paragraph-section .para-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.about-paragraph-section .content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-paragraph-section .content p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+
+
+
+
+
+
+
+/* Contact CSS  Start */
+.contact_page_form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.25rem;
+    max-width: 37.5rem;
+}
+
+.contact_page_form form .form-group:last-of-type {
+    grid-column: 1/-1;
+}
+
+.contact_page_form form .primary-btn {
+    justify-self: start;
+}
+
+.contact_page_form h2 {
+    font-size: 1.875rem;
+    margin: 0 0 0.9375rem;
+    color: #bb9457;
+}
+
+.contact_page_form p {
+    margin: 0 0 2.5rem;
+}
+
+.contact_page_form form input,
+.contact_page_form form textarea {
+    width: 100%;
+    border: 1px solid #f76b47;
+    padding: 0.9375rem;
+    color: #222222;
+    border-radius: 1.25rem;
+    font-weight: 600;
+}
+
+.contact_form_btn {
+    width: max-content;
+}
+
+.contact_page_content_info h3 svg,
+.contact_page_form h3 svg {
+    height: 1.875rem;
+    width: 1.875rem;
+    fill: #f76b47;
+}
+
+.contact_page_content_info h3 {
+    margin-bottom: 1.25rem;
+}
+
+.contact_form_btn {
+    border-radius: 1.25rem;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.contact_page_content_info p a {
+    color: #454545;
+    transition: 0.2s all ease-in-out;
+}
+
+.contact_page_content_info p a:hover {
+    color: #C19B76;
+
+}
+
+.padding-div {
+    padding: 1.875rem 0 0;
+}
+
+.contact_page_content_info ul li {
+    margin-left: 1.25rem;
+    list-style-type: disc;
+}
+
+.contact_page_content_info ul li::marker {
+    color: #f76b47;
+}
+
+.btn_contact {
+    display: inline-block;
+    background: transparent !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9375rem;
+    letter-spacing: 0.3em;
+    color: #f76b47 !important;
+    border-radius: 0;
+    padding: 0.9375rem 1.875rem;
+    transition: all 0.7s ease-out;
+    background: linear-gradient(281deg, #f76b47, #898ac47a, rgb(34 34 34 / 8%), rgba(34, 34, 34, 0)) !important;
+    background-position: 1% 50% !important;
+    background-size: 300% 300% !important;
+    text-decoration: none;
+    margin: 1.25rem 0;
+    border: 1px solid #f76b47 !important;
+}
+
+.contact_form_btn {
+    border-radius: 1.25rem;
+}
+
+.btn_contact:hover {
+    color: #fff !important;
+    border: 1px solid rgba(223, 190, 106, 0) !important;
+    color: white !important;
+    background-position: 99% 50% !important;
+}
+
+/* Contact CSS End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Pages CSS End*/
+.footer-pages-wrap {
+    max-width: 81.25rem;
+    margin: 0 auto;
+    border-radius: 1.875rem;
+    position: relative;
+    z-index: 99;
+    background-color: #e66836;
+    padding: 1.875rem;
+    margin-top: -7rem;
+}
+
+.footer-pages-content-grp {
+    margin-bottom: 1.2rem;
+    border-radius: 0.625rem;
+}
+
+.footer-pages-content-grp:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-pages-content-grp h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0.9375rem;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.footer-pages-content-grp strong {
+    font-size: 1.125rem;
+}
+
+.footer-pages-content-grp p {
+    font-size: 1.0625rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-pages-content-grp ul {
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.footer-pages-content-grp ul li {
+    list-style-type: disc;
+}
+
+.footer-pages-content-grp ul li::marker {
+    color: #fff;
+}
+
+.footer-pages-content-grp p a {
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+    text-underline-offset: 4px;
+    font-weight: 600;
+}
+
+.footer-pages-content-grp p a:hover {
+    text-decoration: underline;
+}
+
+.footer-pages-content-grp.ft_diff {
+    background: #191919;
+    width: max-content;
+    padding: 1.25rem;
+}
+
+.footer-pages-content-grp.ft_diff p {
+    color: #fff;
+}
+
+.footer-pages-content-grp a {
+    color: white;
+}
+
+/* Footer Pages CSS End*/
+
+
+
+
+
+
+
+
+
+.section_heading {
+    font-size: 2.5rem;
+    line-height: 1.4;
+}
+
+.itenary_content_img_outer {
+    height: 30rem;
+    width: 100%;
+}
+
+.itenary_content_img {
+    height: 100%;
+    width: 100%;
+}
+
+.itenary_plan_cards {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0.1875rem 0.5rem;
+    padding: 1.25rem;
+    border-radius: 1.875rem;
+    height: 100%;
+}
+
+.itenary_plan_cards ul li {
+    /* margin-left: 1.25rem; */
+}
+
+.itenary_plan_cards ul li p {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+   Itinerary Section Styling
+=================================*/
+
+.itenary_content_sec {
+    position: relative;
+    padding: 60px 0;
+  }
+  
+  .bg_light {
+    background-color: #f8f9fa; /* light gray section background */
+  }
+  
+  .section_heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #222;
+  }
+  
+  .itenary_content_img_outer {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  
+  .itenary_content_img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .common_overlay .box {
+    position: absolute;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    z-index: 2;
+  }
+  
+  /* Overlay Box Positions */
+  .common_overlay .box1 {
+    top: 15px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .common_overlay .box2 {
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .common_overlay .box3 {
+    bottom: 15px;
+    left: 15px;
+    width: 70px;
+    height: 70px;
+  }
+  
+  .common_overlay .box4 {
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Itinerary Plan Cards */
+  .itenary_plan_cards {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .itenary_plan_cards:hover {
+    transform: translateY(-5px);
+  }
+  
+  .itenary_plan_cards h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #f76b47;
+  }
+  
+  .itenary_plan_cards ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .itenary_plan_cards ul li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .itenary_plan_cards ul li::before {
+    content: "•";
+    color: #f76b47;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .itenary_plan_cards p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Paragraph Styling under itineraries */
+  .itenary_content_wrap > p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  /* ==============================
+     RESPONSIVE STYLING
+  =================================*/
+  
+  

@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>The Feed</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <!-- Logo -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="logo-img">
+                        <a href="./">
+                            <img src="./assets/images/logo.png" alt="Pickimmz Travel Logo" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="col-6 col-md-8 col-lg-10 d-flex justify-content-end align-items-center">
+
+                    <!-- Toggle Button (visible on small screens) -->
+                    <button class="menu-toggle " aria-label="Open Menu">☰</button>
+
+                    <nav class="main-nav" aria-label="Main navigation">
+                        <button class="menu-close " aria-label="Close Menu">✕</button>
+                        <ul class="row list-unstyled justify-content-end m-0">
+                            <li class="col-auto"><a href="index" >Home</a></li>
+                            <li class="col-auto"><a href="destinations">Destinations</a></li>
+                            <li class="col-auto"><a href="things-to-do">Things To Do</a></li>
+                            <li class="col-auto"><a href="itineraries">Itineraries</a></li>
+                            <li class="col-auto"><a href="where-to-stay">Where To Stay</a></li>
+                            <li class="col-auto"><a href="the-feed" class="active">The Feed</a></li>
+                            <li class="col-auto"><a href="about">About</a></li>
+                            <li class="col-auto"><a href="contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="banner-section d-flex justify-content-center align-items-center internal-banner"
+            style="background-image: url(./assets/images/destination-banner.jpg);">
+            <div class="container">
+                <div class="banner-main text-center">
+                    <h2><span class="theme">Real Stories, Practical Tips, and Smarter Ways </span> to Travel New Jersey
+                    </h2>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="after-banner">
+            <div class="container">
+                <div class="after-banner-main">
+                    <p>This is where we write the way people actually travel. Not bucket lists. Not clickbait. Just
+                        honest content about where to go, what to skip, and how to get more out of your time in New
+                        Jersey.
+                    </p>
+                    <p>Some posts break down full trips. Others go deep on a single experience. Every one is written
+                        with the same goal: to make planning easier and exploring better. If you're looking for where
+                        the real good stuff is — the quiet beaches, the best bagel, the trails with a payoff — you're in
+                        the right place.</p>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="from-blog py-5">
+            <div class="container">
+                <!-- <div class="text-center mb-4">
+                    <h2 class="fw-bold theme">Atlantic City</h2>
+
+                    <p>Atlantic City Travel Guide</p>
+                </div> -->
+
+                <div class="row g-4">
+                    <!-- Card 1 -->
+
+
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/atlantic-city-casino.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">Hidden Gems Worth the Detour in
+                                        New Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/casino-hotel.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">How to Plan the Perfect Long
+                                        Weekend in New Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/things-todo.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">The Best Coastal Drives in New
+                                        Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/resturan.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">A Local’s Guide to Eating Your
+                                        Way Through New Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/visit.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">Where to Go in New Jersey This
+                                        Fall</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/getting-around.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">How to Travel New Jersey Without
+                                        a Car</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/plan-trop.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">What New Jersey Does Better Than
+                                        New York</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/plan-trop.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">The Ultimate Guide to New Jersey
+                                        in Winter</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/plan-trop.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">Planning a Multi-Stop Trip
+                                        Through New Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card blog-card h-100 shadow-sm border-0">
+                            <div class="card-img-top blog-img"
+                                style="background-image: url('./assets/images/plan-trop.jpg');"></div>
+                            <div class="card-body text-center p-4">
+                                <h5 class="card-title fw-bold"><a href="#" class="blog">How to Avoid Tourist Traps in
+                                        New Jersey</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        
+        <section>
+            <div class="container">
+                <div class="text-center mb-4 mt-5">
+                    <h2 class="fw-bold theme">Family Hotels in New Jersey That Actually Work</h2>
+                    <p class="pt-2">Travelling with kids? You know the stakes are high. You need space, walkability,
+                        something to do
+                        nearby — and a place that won’t treat your family like a problem. This guide breaks down hotels
+                        across New Jersey that are easy to check into and hard to leave, whether you’re heading for the
+                        beach, the boardwalk, or the trails.</p>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section class="destinations-section"
+            style="background-color: rgb(248 249 250) !important; padding-bottom: 70px;">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="text-center mb-5 ">
+                    <h2 class="fw-bold theme">Boardwalk and Beach Stays</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>White Sands Oceanfront Resort – Point Pleasant Beach</h5>
+                                    <p>Private beach access, multiple pools (indoor and outdoor), and an easy walk to
+                                        arcades, pizza shops, and the aquarium. The beach is right there — no driving,
+                                        no hassle.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>The Breakers on the Ocean – Spring Lake</h5>
+                                    <p>More low-key, but ideal for a family that wants peace, not noise. You’re close to
+                                        a calmer stretch of sand, and the boardwalk is perfect for stroller walks.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Destination 5 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="destination-card">
+                            <img src="./assets/images/princeton.jpg" class="img-fluid w-100" alt="Princeton">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Waters Edge Ocean Resort – Wildwood Crest</h5>
+                                    <p>A top pick for families visiting the southern shore. Large rooms, kitchenettes,
+                                        and sundecks just off the beach. Bonus: close to the Wildwood boardwalk but far
+                                        enough to skip the late-night crowd.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+                <!-- Heading -->
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Inland Options Near Attractions</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Hyatt House – Branchburg</h5>
+                                    <p>Great for family road trips or sports tournaments. Spacious rooms, kitchenettes,
+                                        and breakfast included. It’s also a good halfway base between the Delaware River
+                                        and Six Flags.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Holiday Inn Express – Mount Laurel</h5>
+                                    <p>Clean, consistent, and a short drive to the Adventure Aquarium in Camden, plus
+                                        kid-friendly spots in Cherry Hill and Philadelphia just over the bridge.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Why These Work</h2>
+                    <p class="pt-2">These aren’t resorts with slides and waterparks — they’re better. They’re clean,
+                        safe, located where you actually want to be, and flexible enough for kids without cutting
+                        corners on comfort.</p>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+        <section>
+            <div class="container">
+                <div class="text-center mb-4 mt-5">
+                    <h2 class="fw-bold theme">Adult-Only and Couples-First Hotels in New Jersey</h2>
+                    <p class="pt-2">Sometimes, you need quiet. No screaming, no crowded pool, no lobby full of spilled
+                        snacks. Just calm. These hotels and inns across New Jersey cater to adults — offering more
+                        privacy, more peace, and the kind of atmosphere that makes a weekend feel like more than two
+                        nights.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section class="destinations-section"
+            style="background-color: rgb(248 249 250) !important; padding-bottom: 70px;">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="text-center mb-5 ">
+                    <h2 class="fw-bold theme">Cape May Escapes</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>The Virginia Hotel</h5>
+                                    <p>Elegant, candlelit, and adults-only. The bar is quiet, the porch is for
+                                        lingering, and the rooms are built for late starts. You’re one block from the
+                                        beach and close to the best dining in town.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>The Southern Mansion</h5>
+                                    <p>A historic bed and breakfast surrounded by gardens and old-world charm. Rooms are
+                                        plush and quiet. A top pick for anniversaries, proposal weekends, or just
+                                        escaping the routine.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Heading -->
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Boutique + Design-Forward</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>The George – Montclair</h5>
+                                    <p>No kids, no chaos — just refined design, soft lighting, and thoughtful touches in
+                                        every room. Set in a historic mansion but styled like a boutique hotel.
+                                        Montclair’s restaurants, galleries, and walking streets are right nearby.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Chateau Inn and Suites – Spring Lake</h5>
+                                    <p>Steps from the lake and close to the beach. Clean, traditional, and built for a
+                                        slower pace. It’s the kind of place where you leave your phone in the room.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Casino Resorts with Adult Energy</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Borgata – Atlantic City</h5>
+                                    <p>While it’s not exclusively adult-only, Borgata draws a grown-up crowd. The spa,
+                                        dining, and nightlife are all geared toward couples and adults who want a
+                                        cleaner, more upscale casino experience.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+        <section>
+            <div class="container">
+                <div class="text-center mb-4 mt-5">
+                    <h2 class="fw-bold theme">Golf Hotels in New Jersey That Actually Deliver</h2>
+                    <p class="pt-2">Planning a trip around tee times? You’re not alone. New Jersey has a solid mix of
+                        public and semi-private courses — and several hotels and inns that cater to golfers looking for
+                        a smooth stay near the green. These aren’t packed with gimmicks — just well-located, well-run
+                        spots with easy access to strong courses.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section class="destinations-section"
+            style="background-color: rgb(248 249 250) !important; padding-bottom: 70px;">
+            <div class="container">
+
+                <!-- Heading -->
+                <div class="text-center mb-5 ">
+                    <h2 class="fw-bold theme">Stay and Play Resorts</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Seaview, A Dolce Hotel – Galloway</h5>
+                                    <p>Located just outside Atlantic City, Seaview has two courses on-site (Bay and
+                                        Pines) and a hotel with all the right extras: solid rooms, casual dining, and
+                                        practice areas. Perfect for a golf-first trip that still offers proximity to the
+                                        beach and casino scene.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Crystal Springs Resort – Hamburg</h5>
+                                    <p>Seven courses across multiple properties, with two main hotels (Grand Cascades
+                                        Lodge and Minerals Hotel). Ideal for buddy trips, father-son weekends, or
+                                        couples where at least one person is golfing. The onsite restaurants and spa
+                                        make it a full package.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <!-- Heading -->
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Hotels Near Great Public Courses</h2>
+                </div>
+                <!-- Grid -->
+                <div class="row g-4">
+
+
+
+                    <!-- Destination 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Hyatt House – Bridgewater</h5>
+                                    <p>Close to Neshanic Valley Golf Course, one of the best public courses in the
+                                        state. The hotel is clean, quiet, and built for early starts and late returns.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Destination 4 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="destination-card">
+                            <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
+                            <div class="destination-overlay">
+                                <a href="#">
+                                    <h5>Courtyard Marriott – Edison Woodbridge</h5>
+                                    <p>A central base near multiple courses in Middlesex County. Not flashy, but
+                                        reliable and often overlooked for quick overnight golf trips.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <div class="text-center mb-5 mt-5">
+                    <h2 class="fw-bold theme">Insider Tip</h2>
+                    <p class="pt-2">Avoid “golf packages” that overcharge and under-deliver. Instead, book your tee
+                        times directly with the course and stay at one of these hotels nearby. You’ll get better value,
+                        more control over your schedule, and a trip that’s actually built around the game — not the
+                        gimmicks.</p>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="plan py-5 hide">
+            <div class="container">
+                <div class="plan-main">
+                    <div class="text-center mb-4 pt-3 first-line">
+                        <h2 class="fw-bold theme">Why Way Payr? </h2>
+                        <!-- <p>Everything you need to travel with confidence:</p> -->
+                    </div>
+
+                    <!-- Slick slider wrapper -->
+                    <div class="plan-slider">
+                        <!-- Card 1 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/information.png" alt="Transport" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Everything you need to know about New Jersey — all in one place
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/correspondence.png" alt="Calendar" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">No fake lists, no filler — just real recommendations that actually
+                                    help </h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/to-do-list.png" alt="Packing" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Honest breakdowns of what to do, where to go, and why it’s worth it
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/question-and-answer.png" alt="Hotel" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Fast, clear answers so you can plan a trip without wasting hours
+                                </h5>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/location.png" alt="Day Trips" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Local insight and easy-to-follow guides built for everyday
+                                    travellers</h5>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card plan-card h-100 text-white text-center p-4">
+                                <div class="icon mb-3">
+                                    <img src="./assets/images/search.png" alt="Day Trips" class="icon-img">
+                                </div>
+                                <h5 class="fw-bold">Focused on New Jersey only — so every piece of content actually
+                                    matters</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="newsletter py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8 text-center">
+                        <h3 class="fw-bold pb-2">Sign Up for New Jersey Travel Ideas</h3>
+                        <p class="text-muted pb-3">Get seasonal trip guides, hidden spots, local tips, and ready-made
+                            itineraries — direct to your
+                            inbox.</p>
+
+                        <form class="d-flex justify-content-center mt-3">
+                            <input type="email" class="form-control newsletter-input" placeholder="Your Email Address"
+                                required>
+                            <button type="submit" class="btn btn-subscribe">Join the Way Payr Newsletter →</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <!-- Disclaimer Section Start -->
+        <section class="disclaimer_sec behind_bar ">
+            <div class="container">
+                <div class="disclaimer_wrap">
+                    <h3 class="mb-4 text_white">
+                        Disclaimer
+                    </h3>
+                    <p class="text_white">
+                        The information provided on waypayr.com is for general travel inspiration and informational
+                        purposes only. While we strive to ensure accuracy and up-to-date content, details such as
+                        prices, availability, and regulations may change without notice. Way Payr does not own or
+                        operate any of the listed services or accommodations and is not liable for any changes,
+                        inaccuracies, or issues arising from third-party bookings or experiences. Always confirm
+                        directly with providers before making travel arrangements. By using this site, you accept full
+                        responsibility for your travel decisions and acknowledge that Way Payr is not accountable for
+                        any losses or inconveniences incurred.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Disclaimer Section End -->
+    </main>
+    <!-- Footer Start  -->
+    <footer class="site-footer behind_bar ">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-top pt-5">
+                    <div class="footer-logo">
+                        <a href="./" class="mb-3">
+                            <img src="./assets/images/footer-logo.png" alt="">
+                        </a>
+
+                    </div>
+                    <div class="footer-links">
+                        <h4>Menu Links</h4>
+                        <ul>
+                            <li class="col-auto"><a href="index" class="active">Home</a></li>
+                            <li class="col-auto"><a href="destinations">Destinations</a></li>
+                            <li class="col-auto"><a href="things-to-do">Things To Do</a></li>
+                            <li class="col-auto"><a href="itineraries">Itineraries</a></li>
+                            <li class="col-auto"><a href="where-to-stay">Where To Stay</a></li>
+                            <li class="col-auto"><a href="the-feed">The Feed</a></li>
+                            <li class="col-auto"><a href="about">About</a></li>
+                            <li class="col-auto"><a href="contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>Let's Connect</h4>
+                        <ul class="connect_links">
+                            <li>
+                                <a href="mailto:info@waypayr.com" class="footer_mail mt-2">info@waypayr.com</a>
+                            </li>
+
+                        </ul>
+
+
+                        <div class="social-icons mt-4">
+
+                            <ul>
+                                <li><a href="https://www.facebook.com/thematua" target="_blank"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                            <path
+                                                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="https://www.instagram.com/thematuabar/#" target="_blank"><svg
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path
+                                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                            </path>
+                                        </svg></a></li>
+                                <li><a href="https://x.com/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512">
+                                            <path
+                                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+                                            </path>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Other Links</h4>
+                        <ul>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="personal-data-policy">Personal Information Policy </a></li>
+                            <li><a href="terms-conditions">Terms & Conditions</a></li>
+                            <li><a href="refund-policy">Refunds Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>
+                        © 2025 <span class="theme"> waypayr.com </span> All rights reserved.
+                    </p>
+                    <div class="ssl_logo">
+                        <div class="ssl_logo_inner bg_center_contain"
+                            style="background-image: url(assets/images/ssl.png);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle");
+        const menuClose = document.querySelector(".menu-close");
+        const mainNav = document.querySelector(".main-nav");
+
+        menuToggle.addEventListener("click", () => {
+            mainNav.classList.add("open");
+        });
+
+        menuClose.addEventListener("click", () => {
+            mainNav.classList.remove("open");
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick Slider JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.activity-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: true,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: { slidesToShow: 1 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.plan-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 992, // tablets
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 576, // mobile
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.todo-main').slick({
+                dots: true,
+                infinite: true,
+                speed: 600,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                arrows: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 1 }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1 }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
