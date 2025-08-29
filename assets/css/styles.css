@@ -417,7 +417,7 @@ nav li a {
 }
 
 .todo {
-    padding: 100px 0 0;
+    padding: 40px 0 0;
 }
 
 
@@ -1373,26 +1373,27 @@ nav li a {
 .itenary_content_sec {
     position: relative;
     padding: 60px 0;
-  }
-  
-  .bg_light {
-    background-color: #f8f9fa; /* light gray section background */
-  }
-  
-  .section_heading {
+}
+
+.bg_light {
+    background-color: #f8f9fa;
+    /* light gray section background */
+}
+
+.section_heading {
     font-size: 2rem;
     font-weight: 700;
     text-transform: capitalize;
     color: #222;
-  }
-  
-  .itenary_content_img_outer {
+}
+
+.itenary_content_img_outer {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
-  }
-  
-  .itenary_content_img {
+}
+
+.itenary_content_img {
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -1400,102 +1401,109 @@ nav li a {
     border-radius: 12px;
     position: relative;
     z-index: 1;
-  }
-  
-  .common_overlay .box {
+}
+
+.common_overlay .box {
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 8px;
     z-index: 2;
-  }
-  
-  /* Overlay Box Positions */
-  .common_overlay .box1 {
+}
+
+/* Overlay Box Positions */
+.common_overlay .box1 {
     top: 15px;
     left: 15px;
     width: 60px;
     height: 60px;
-  }
-  
-  .common_overlay .box2 {
+}
+
+.common_overlay .box2 {
     top: 15px;
     right: 15px;
     width: 80px;
     height: 80px;
-  }
-  
-  .common_overlay .box3 {
+}
+
+.common_overlay .box3 {
     bottom: 15px;
     left: 15px;
     width: 70px;
     height: 70px;
-  }
-  
-  .common_overlay .box4 {
+}
+
+.common_overlay .box4 {
     bottom: 15px;
     right: 15px;
     width: 50px;
     height: 50px;
-  }
-  
-  /* Itinerary Plan Cards */
-  .itenary_plan_cards {
+}
+
+/* Itinerary Plan Cards */
+.itenary_plan_cards {
     background: #fff;
     border-radius: 12px;
     padding: 25px;
     height: 100%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;
-  }
-  
-  .itenary_plan_cards:hover {
+}
+
+.itenary_plan_cards:hover {
     transform: translateY(-5px);
-  }
-  
-  .itenary_plan_cards h2 {
+}
+
+.itenary_plan_cards h2 {
     font-size: 1.3rem;
     font-weight: 600;
     color: #f76b47;
-  }
-  
-  .itenary_plan_cards ul {
+}
+
+.itenary_plan_cards ul {
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .itenary_plan_cards ul li {
+}
+
+.itenary_plan_cards ul li {
     margin-bottom: 15px;
     position: relative;
     padding-left: 20px;
-  }
-  
-  .itenary_plan_cards ul li::before {
+}
+
+.itenary_plan_cards ul li::before {
     content: "•";
     color: #f76b47;
     font-size: 1.2rem;
     position: absolute;
     left: 0;
     top: 0;
-  }
-  
-  .itenary_plan_cards p {
+}
+
+.itenary_plan_cards p {
     margin: 0;
     font-size: 1rem;
     line-height: 1.6;
     color: #444;
-  }
-  
-  /* Paragraph Styling under itineraries */
-  .itenary_content_wrap > p {
+}
+
+/* Paragraph Styling under itineraries */
+.itenary_content_wrap>p {
     font-size: 1rem;
     line-height: 1.7;
     color: #333;
     margin-bottom: 12px;
-  }
-  
-  /* ==============================
+}
+
+/* ==============================
      RESPONSIVE STYLING
   =================================*/
-  
-  
+
+
+
+
+.atlantic-guide {
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 20px;
+}
