@@ -428,4 +428,9 @@
         padding: 30px 0 30px;
         /* text-align: center; */
     }
+    .main-nav {
+       
+        width: 65%;
+        
+    }
 }
