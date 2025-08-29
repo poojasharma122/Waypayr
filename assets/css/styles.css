@@ -1007,7 +1007,7 @@ nav li a {
 }
 
 .last-p {
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 0;
 }
 
@@ -1015,7 +1015,7 @@ nav li a {
     display: inline-block;
     font-size: 1rem;
     font-weight: 600;
-    color: #333;
+    color: #d35400;
     text-decoration: none;
     margin-top: 12px;
     transition: all 0.3s ease;
@@ -1023,7 +1023,7 @@ nav li a {
 }
 
 .see-full:hover {
-    color: #d35400;
+    color: #000;
     /* orange hover */
     text-decoration: underline;
     transform: translateX(4px);
