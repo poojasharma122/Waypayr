@@ -442,4 +442,12 @@
         font-size: 25px;
         
     }
+    .logo-img img {
+        width: 120px;
+    }
+    .menu-toggle, .menu-close {
+       
+        font-size: 25px;
+        
+    }
 }
