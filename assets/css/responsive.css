@@ -433,4 +433,13 @@
         width: 65%;
         
     }
+    .main-nav ul li a {
+       
+        font-size: 16px;
+    }
+    .menu-toggle, .menu-close {
+       
+        font-size: 25px;
+        
+    }
 }
