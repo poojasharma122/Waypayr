@@ -340,6 +340,10 @@
     .footer-pages-wrap {
         padding: 1.25rem;
     }
+
+    .itenarary-text {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -470,7 +474,12 @@
     .after-banner .after-banner-main {
         margin-top: -50px;
     }
-    .email-ip{
+
+    .email-ip {
         margin-bottom: 10px;
+    }
+
+    .itenarary-text {
+        font-size: 21px;
     }
 }
