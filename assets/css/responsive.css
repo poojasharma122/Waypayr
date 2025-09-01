@@ -61,6 +61,10 @@
         margin-left: auto;
         margin-bottom: 2rem;
     }
+
+    .contact_form_btn {
+        margin-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -236,17 +240,25 @@
     .about-paragraph-section .content p {
         text-align: center;
     }
+
     .atlantic-city-text-heading {
         margin-top: 0px !important;
     }
+
     .hotels-card {
         padding-top: 0px !important;
     }
+
     .after-banner {
         padding: 40px 15px 10px;
     }
+
     .stay-plan {
         padding-top: 0 !important;
+    }
+
+    .contact_form_btn {
+        margin-top: 0 !important;
     }
 }
 
@@ -356,6 +368,7 @@
     .itenarary-text {
         font-size: 28px;
     }
+
     .atlantic-city-text-heading {
         margin-top: 0px !important;
     }
