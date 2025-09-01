@@ -245,6 +245,9 @@
     .after-banner {
         padding: 40px 15px 10px;
     }
+    .stay-plan {
+        padding-top: 0 !important;
+    }
 }
 
 @media screen and (max-width: 575px) {
