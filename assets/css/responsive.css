@@ -236,6 +236,15 @@
     .about-paragraph-section .content p {
         text-align: center;
     }
+    .atlantic-city-text-heading {
+        margin-top: 0px !important;
+    }
+    .hotels-card {
+        padding-top: 0px !important;
+    }
+    .after-banner {
+        padding: 40px 15px 10px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -343,6 +352,9 @@
 
     .itenarary-text {
         font-size: 28px;
+    }
+    .atlantic-city-text-heading {
+        margin-top: 0px !important;
     }
 }
 
@@ -481,5 +493,13 @@
 
     .itenarary-text {
         font-size: 21px;
+    }
+
+    .hotels-card {
+        padding-top: 0 !important;
+    }
+
+    .atlantic-city-text-heading {
+        margin-top: 20px !important;
     }
 }
