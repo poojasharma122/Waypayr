@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1c1c1c;
 }
 
 p {
@@ -87,7 +88,7 @@ nav li a {
 .main-nav ul li a {
     position: relative;
     padding: 8px 0px;
-    color: #807575;
+    color: #000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -100,13 +101,13 @@ nav li a {
     bottom: 0;
     width: 0;
     height: 2px;
-    background: #1e354c;
+    background: #ffc571;
     transition: all 0.3s ease;
     transform: translateX(-50%);
 }
 
 .main-nav ul li a:hover {
-    color: #1e354c;
+    color: #ffc571;
 }
 
 .main-nav ul li a:hover::after {
@@ -115,7 +116,7 @@ nav li a {
 
 /* Active class */
 .main-nav ul li a.active {
-    color: #1e354c;
+    color: #ffc571;
 }
 
 .main-nav ul li a.active::after {
@@ -130,8 +131,19 @@ nav li a {
     display: none;
 }
 
+p {
+    color: #fff;
+}
 
+.after-banner-main p {
+    color: #454545;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
+.footer-pages-wrap p {
+    color: #454545;
+}
 
 
 /* banner-section */
@@ -196,7 +208,7 @@ nav li a {
 .after-banner {}
 
 .after-banner .after-banner-main {
-    background: linear-gradient(to bottom, #f2704e, #f8a073);
+    background: linear-gradient(to bottom, #ffc571, #ffd699);
     /* max-width: 800px; */
     margin: 0 auto;
     padding: 40px 50px;
@@ -243,11 +255,13 @@ nav li a {
 .destination-card:hover img {
     transform: scale(1.1);
 }
-
+.new-jersey-cstm {
+    border-top: 1px solid #cccccc24;
+}
 .destination-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 20%, rgba(0, 0, 0, 0) 70%);
+    background: linear-gradient(to top, rgb(255 197 113 / 65%) 20%, rgba(0, 0, 0, 0) 70%);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -260,7 +274,7 @@ nav li a {
     position: absolute;
     top: 15px;
     right: 15px;
-    background: #ff5c33;
+    background: #ffc571;
     color: #fff;
     font-size: 0.8rem;
     font-weight: 600;
@@ -292,7 +306,7 @@ nav li a {
 .destination-overlay .view-btn {
     display: inline-block;
     margin-top: 12px;
-    color: #ff5c33;
+    color: #ffc571;
     font-weight: bold;
     text-decoration: none;
 }
@@ -402,7 +416,7 @@ nav li a {
 }
 
 .theme {
-    color: #e66836;
+    color: #ffc571;
 }
 
 .what-todo-main>p {
@@ -482,7 +496,7 @@ nav li a {
 
 
 .plan-card {
-    background-color: #e66836;
+    background-color: #ffc571;
     border: none;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -502,7 +516,7 @@ nav li a {
 }
 
 .plan-card {
-    background-color: #e66836;
+    background-color: #ffc571;
     border: none;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -534,6 +548,40 @@ nav li a {
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
     /* height: 230px; */
+}
+
+/* Custom slider dot colors */
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li {
+    margin: 0 4px;
+}
+
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ffc571;
+    opacity: 0.3;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.slick-dots li button:before {
+    display: none;
+}
+
+.slick-dots li.slick-active button {
+    background: #ffc571;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.slick-dots li button:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
 }
 
 .slick-track {
@@ -571,7 +619,7 @@ nav li a {
 }
 
 .blog:hover {
-    color: #f76b47;
+    color: #ffc571;
 
 }
 
@@ -595,7 +643,7 @@ nav li a {
 }
 
 .deal-left {
-    background: linear-gradient(135deg, #f76b47, #f98f6e);
+    background: linear-gradient(135deg, #ffc571, #ffd699);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -628,7 +676,7 @@ nav li a {
 }
 
 .btn-subscribe {
-    background-color: #f76b47;
+    background-color: #ffc571;
     /* orange shade */
     color: #fff;
     font-weight: 600;
@@ -639,7 +687,7 @@ nav li a {
 }
 
 .btn-subscribe:hover {
-    background-color: #e45a38;
+    background-color: #ffc571;
     color: #fff;
 }
 
@@ -687,13 +735,13 @@ nav li a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0.9375rem;
-    border-top: 1px solid #e66836;
+    border-top: 1px solid #ffc571;
 }
 
 .footer-top h4 {
     font-size: 1.375rem;
     margin-bottom: 1.25rem;
-    color: #e66836;
+    color: #ffc571;
 }
 
 .footer-links {
@@ -721,14 +769,14 @@ nav li a {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #e66836;
+    background-color: #ffc571;
     transform-origin: center;
     transition: all 0.3s ease-out;
 }
 
 .disclaimer_wrap h3 {
     font-size: 2rem;
-    color: #f76b47;
+    color: #ffc571;
 }
 
 .disclaimer_wrap p {
@@ -737,13 +785,13 @@ nav li a {
 }
 
 .footer-links li a:hover {
-    color: #e66836;
+    color: #ffc571;
 }
 
 .disclaimer_wrap p a::after {
     bottom: -3px;
     height: 1px;
-    background-color: #e66836;
+    background-color: #ffc571;
 }
 
 .footer-links li a:hover::after,
@@ -756,7 +804,7 @@ nav li a {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #e66836;
+    border-top: 1px solid #ffc571;
     padding-top: 0.625rem;
     margin-top: 2.1875rem;
 }
@@ -775,11 +823,11 @@ nav li a {
 }
 
 .behind_bar_text .social-icons li a {
-    border: 1px solid #e66836;
+    border: 1px solid #ffc571;
 }
 
 .behind_bar_text .social-icons li a svg {
-    fill: #e66836;
+    fill: #ffc571;
 }
 
 .social-icons li a {
@@ -846,7 +894,7 @@ nav li a {
 }
 
 .connect_links li a:hover {
-    color: #e66836;
+    color: #ffc571;
 }
 
 .bg_center_contain {
@@ -1141,7 +1189,7 @@ nav li a {
 .contact_page_form form input,
 .contact_page_form form textarea {
     width: 100%;
-    border: 1px solid #f76b47;
+    border: 1px solid #ffc571;
     padding: 0.9375rem;
     color: #222222;
     border-radius: 1.25rem;
@@ -1156,7 +1204,7 @@ nav li a {
 .contact_page_form h3 svg {
     height: 1.875rem;
     width: 1.875rem;
-    fill: #f76b47;
+    fill: #ffc571;
 }
 
 .contact_page_content_info h3 {
@@ -1191,7 +1239,7 @@ nav li a {
 }
 
 .contact_page_content_info ul li::marker {
-    color: #f76b47;
+    color: #ffc571;
 }
 
 .btn_contact {
@@ -1202,16 +1250,16 @@ nav li a {
     font-style: normal;
     font-size: 0.9375rem;
     letter-spacing: 0.3em;
-    color: #f76b47 !important;
+    color: #ffc571 !important;
     border-radius: 0;
     padding: 0.9375rem 1.875rem;
     transition: all 0.7s ease-out;
-    background: linear-gradient(281deg, #f76b47, #898ac47a, rgb(34 34 34 / 8%), rgba(34, 34, 34, 0)) !important;
+    background: linear-gradient(281deg, #ffc571, #898ac47a, rgb(34 34 34 / 8%), rgba(34, 34, 34, 0)) !important;
     background-position: 1% 50% !important;
     background-size: 300% 300% !important;
     text-decoration: none;
     margin: 1.25rem 0;
-    border: 1px solid #f76b47 !important;
+    border: 1px solid #ffc571 !important;
 }
 
 .contact_form_btn {
@@ -1247,7 +1295,7 @@ nav li a {
     border-radius: 1.875rem;
     position: relative;
     z-index: 99;
-    background-color: #e66836;
+    background-color: #ffc571;
     padding: 1.875rem;
     margin-top: -7rem;
 }
@@ -1264,7 +1312,7 @@ nav li a {
 .footer-pages-content-grp h3 {
     font-size: 1.7rem;
     margin-bottom: 0.9375rem;
-    color: #fff;
+    color: #454545;
     line-height: 1.4;
 }
 
@@ -1275,7 +1323,7 @@ nav li a {
 .footer-pages-content-grp p {
     font-size: 1.0625rem;
     margin-bottom: 0.5rem;
-    color: #fff;
+    color: #454545;
     font-weight: 500;
 }
 
@@ -1289,7 +1337,7 @@ nav li a {
 }
 
 .footer-pages-content-grp ul li::marker {
-    color: #fff;
+    color: #454545;
 }
 
 .footer-pages-content-grp p a {
@@ -1457,7 +1505,7 @@ nav li a {
 .itenary_plan_cards h2 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #f76b47;
+    color: #ffc571;
 }
 
 .itenary_plan_cards ul {
@@ -1474,7 +1522,7 @@ nav li a {
 
 .itenary_plan_cards ul li::before {
     content: "•";
-    color: #f76b47;
+    color: #ffc571;
     font-size: 1.2rem;
     position: absolute;
     left: 0;
@@ -1507,4 +1555,10 @@ nav li a {
     font-weight: 600;
     padding-top: 5px;
     font-size: 20px;
+}
+.deal_left *{
+    color: #454545;
+}
+.deal_left p {
+    color: #454545;
 }
