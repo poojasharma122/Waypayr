@@ -110,12 +110,14 @@ nav li a {
     color: #ffc571;
 }
 
-.text-white{
-    color: #fff ;
+.text-white {
+    color: #fff;
 }
-.text-dark{
+
+.text-dark {
     color: #454545;
 }
+
 .main-nav ul li a:hover::after {
     width: 100%;
 }
@@ -261,9 +263,11 @@ p {
 .destination-card:hover img {
     transform: scale(1.1);
 }
+
 .new-jersey-cstm {
     border-top: 1px solid #cccccc24;
 }
+
 .destination-overlay {
     position: absolute;
     inset: 0;
@@ -438,7 +442,7 @@ p {
 }
 
 .todo {
-    padding: 40px 0 ;
+    padding: 40px 0;
 }
 
 
@@ -632,7 +636,7 @@ p {
 }
 
 .last-line {
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 
@@ -697,6 +701,10 @@ p {
 .btn-subscribe:hover {
     background-color: #ffc571;
     color: #fff;
+    border: 1px solid rgba(223, 190, 106, 0) !important;
+    color: white !important;
+    background-position: 99% 50% !important;
+    opacity: 0.8;
 }
 
 
@@ -835,9 +843,11 @@ p {
 .behind_bar_text .social-icons li a svg {
     fill: #ffc571;
 }
+
 .social-icons ul {
     gap: 10px;
 }
+
 .social-icons li a {
     width: 2.5rem;
     height: 2.5rem;
@@ -1232,7 +1242,7 @@ p {
 }
 
 .contact_page_content_info p a {
-    color: #454545;
+    color: #bb9457;
     transition: 0.2s all ease-in-out;
 }
 
@@ -1568,9 +1578,11 @@ p {
     padding-top: 5px;
     font-size: 20px;
 }
-.deal_left *{
+
+.deal_left * {
     color: #454545;
 }
+
 .deal_left p {
     color: #454545;
 }
