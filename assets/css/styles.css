@@ -110,6 +110,12 @@ nav li a {
     color: #ffc571;
 }
 
+.text-white{
+    color: #fff ;
+}
+.text-dark{
+    color: #454545;
+}
 .main-nav ul li a:hover::after {
     width: 100%;
 }
