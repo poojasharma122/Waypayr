@@ -209,7 +209,9 @@ p {
 .pt-20{
     padding-top: 20px;
 }
-
+.hide{
+    overflow: hidden;
+}
 
 
 .home_page_destinations .destination-card{
@@ -250,7 +252,7 @@ p {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
-    cursor: pointer;
+    /* cursor: pointer; */
     min-height: 380px;
     /* set fixed minimum height */
     height: 100%;
