@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -60,7 +60,7 @@
         <section class="banner-section d-flex justify-content-center align-items-center">
             <div class="container">
                 <div class="banner-main text-center">
-                    <h2>Explore <span class="theme">New Jersey</span> with Way Payr</h2>
+                    <h2 data-aos="fade-up">Explore <span class="theme">New Jersey</span> with Way Payr</h2>
 
                 </div>
             </div>
@@ -68,7 +68,7 @@
 
         <div class="after-banner">
             <div class="container">
-                <div class="after-banner-main">
+                <div class="after-banner-main" data-aos="zoom-in">
                     <p>New Jersey is more than a stop between cities — it’s a destination in its own right. From the
                         casino buzz of Atlantic City to the calm shores of Cape May, from small-town escapes to skyline
                         views across the Hudson, there’s something here for every kind of traveler.</p>
@@ -86,7 +86,7 @@
                 <!-- Heading -->
 
                 <div class="text-center mb-4">
-                    <h2 class="fw-bold theme">Top Destinations</h2>
+                    <h2 class="fw-bold theme" data-aos="fade-up">Top Destinations</h2>
 
                 </div>
 
@@ -95,8 +95,8 @@
 
                     <!-- Destination 1 -->
                     <div class="col-12 col-md-6 col-lg-8">
-                        <div class="destination-card">
-                            <img src="./assets/images/atlantic-city.jpg" class="img-fluid w-100" alt="Atlantic City">
+                        <div class="destination-card" data-aos="zoom-in">
+                            <img src="./assets/images/atlantic-city.png" class="img-fluid w-100" alt="Atlantic City">
                             <div class="destination-overlay">
                                 <h5>Atlantic City</h5>
                                 <p>Classic boardwalk energy, casino resorts, nightlife</p>
@@ -106,7 +106,7 @@
 
                     <!-- Destination 2 -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="destination-card">
+                        <div class="destination-card" data-aos="zoom-in">
                             <img src="./assets/images/cape-town.jpg" class="img-fluid w-100" alt="Cape May">
                             <div class="destination-overlay">
                                 <h5>Cape May</h5>
@@ -117,7 +117,7 @@
 
                     <!-- Destination 3 -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="destination-card">
+                        <div class="destination-card" data-aos="zoom-in">
                             <img src="./assets/images/jersy-beach.jpg" class="img-fluid w-100" alt="Jersey Shore">
                             <div class="destination-overlay">
                                 <h5>Jersey Shore</h5>
@@ -128,7 +128,7 @@
 
                     <!-- Destination 4 -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="destination-card">
+                        <div class="destination-card" data-aos="zoom-in">
                             <img src="./assets/images/hoboken.jpg" class="img-fluid w-100" alt="Hoboken">
                             <div class="destination-overlay">
                                 <h5>Hoboken</h5>
@@ -139,7 +139,7 @@
 
                     <!-- Destination 5 -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="destination-card">
+                        <div class="destination-card" data-aos="zoom-in">
                             <img src="./assets/images/princeton.jpg" class="img-fluid w-100" alt="Princeton">
                             <div class="destination-overlay">
                                 <h5>Princeton</h5>
@@ -201,14 +201,14 @@
                             </div>
                         </div>
 
-                        <div class="activity-card" style="background-image: url('./assets/images/meuseum.jpg');">
+                        <div class="activity-card" style="background-image: url('./assets/images/meuseum.jpg');" data-aos="zoom-in" data-aos-delay="200">
                             <div class="activity-overlay"></div>
                             <div class="activity-content">
                                 <h5 class="activity-title">Historic sites and museums</h5>
                             </div>
                         </div>
 
-                        <div class="activity-card" style="background-image: url('./assets/images/outdoor.jpg');">
+                        <div class="activity-card" style="background-image: url('./assets/images/outdoor.jpg');" data-aos="zoom-in" data-aos-delay="300">
                             <div class="activity-overlay"></div>
                             <div class="activity-content">
                                 <h5 class="activity-title">Family-friendly attractions and outdoor fun</h5>
@@ -216,7 +216,7 @@
                         </div>
 
                     </div>
-                    <div class="whattodo-last">
+                    <div class="whattodo-last" data-aos="fade-up" data-aos-delay="400">
                         <p>Start with our <a href="#" class="theme">Things To Do</a> and <a href="#"
                                 class="theme">Itineraries</a> pages to get inspired and build your route.</p>
                     </div>
@@ -687,7 +687,12 @@
             });
         });
     </script>
-
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
 
 </body>
 
