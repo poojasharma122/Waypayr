@@ -206,11 +206,15 @@ p {
 }
 
 
+.pt-20{
+    padding-top: 20px;
+}
 
 
 
-
-
+.home_page_destinations .destination-card{
+    cursor: initial;
+}
 
 
 .after-banner {}
