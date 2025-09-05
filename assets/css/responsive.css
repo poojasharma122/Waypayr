@@ -117,8 +117,7 @@
     }
 
     .footer-top {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 15px;
+    
     }
 
     .footer-logo {
@@ -164,9 +163,6 @@
         padding-top: 1.5625rem;
     }
 
-    .footer-top {
-        grid-template-columns: 1fr;
-    }
 
     .footer-logo,
     .footer-links,

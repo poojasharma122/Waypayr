@@ -432,7 +432,7 @@ p {
 }
 
 .todo {
-    padding: 40px 0 0;
+    padding: 40px 0 ;
 }
 
 
@@ -496,15 +496,17 @@ p {
 
 
 .plan-card {
-    background-color: #ffc571;
-    border: none;
+    background-color: #2a2a2a;
+    border: 2px solid #ffc571;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .plan-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 197, 113, 0.2);
+    border-color: #ffd699;
 }
 
 .icon-img {
@@ -513,14 +515,15 @@ p {
     object-fit: contain;
     filter: brightness(0) invert(1);
     /* makes icons white if they are dark */
+    margin-bottom: 15px;
 }
 
 .plan-card {
-    background-color: #ffc571;
-    border: none;
+    background-color: #2a2a2a;
+    border: 2px solid #ffc571;
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    min-height: 230px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    min-height: 200px;
 }
 
 .icon-img {
@@ -732,9 +735,7 @@ p {
 }
 
 .footer-top {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.9375rem;
+
     border-top: 1px solid #ffc571;
 }
 
@@ -745,17 +746,17 @@ p {
 }
 
 .footer-links {
-    padding-left: 3.75rem;
+    padding-left: 0;
 }
 
 .footer-links li a {
     color: #ffffffdb;
-    font-size: 1.125rem;
-    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 400;
     line-height: 120%;
     transition: all 0.2s linear;
     position: relative;
-    padding: 0.625rem 0;
+    padding: 0.625rem 15px;
 }
 
 .footer-links li a::after,
@@ -829,7 +830,9 @@ p {
 .behind_bar_text .social-icons li a svg {
     fill: #ffc571;
 }
-
+.social-icons ul {
+    gap: 10px;
+}
 .social-icons li a {
     width: 2.5rem;
     height: 2.5rem;
@@ -851,7 +854,11 @@ p {
 }
 
 .social-icons {
-    max-width: 10.625rem;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons li a {
