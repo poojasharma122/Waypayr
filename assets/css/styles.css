@@ -202,7 +202,7 @@ p {
 }
 
 .internal-banner {
-    min-height: 65vh;
+    min-height: 50vh;
 }
 
 
@@ -1059,7 +1059,7 @@ input:focus{
     font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #222;
+    color: #ffc571;
     transition: color 0.3s ease;
 }
 
@@ -1072,7 +1072,7 @@ input:focus{
 
 /* Text color change on hover */
 .casino-card:hover .casino-card-content h5 {
-    color: #d35400;
+    color: #ffc571;
     /* orange highlight */
 }
 
@@ -1089,7 +1089,7 @@ input:focus{
     display: inline-block;
     font-size: 1rem;
     font-weight: 600;
-    color: #d35400;
+    color: #ffc571;
     text-decoration: none;
     margin-top: 12px;
     transition: all 0.3s ease;

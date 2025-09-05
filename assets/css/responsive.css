@@ -153,7 +153,7 @@
     }
 
     .after-banner p {
-        font-size: 1rem;
+        font-size: 0.9375rem;
     }
 
     .footer-bottom {
@@ -259,6 +259,10 @@
 }
 
 @media screen and (max-width: 575px) {
+    .last-line {
+        padding-top: 40px ;
+        padding-bottom: 30px;
+    }
     .banner-section {
         min-height: 50vh;
         padding: 40px 0;
@@ -289,7 +293,7 @@
     }
 
     .todo {
-        padding: 70px 0 0;
+        padding: 70px 0 20px 0;
     }
 
     .todo-item {
