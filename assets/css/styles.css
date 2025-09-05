@@ -189,7 +189,9 @@ p {
     margin: 0 auto;
     padding: 0 15px;
 }
-
+section.from-blog.pt-5.new-jersey-cstm a {
+    cursor: unset;
+}
 .banner-section h2 {
     font-size: 3rem;
     font-weight: 700;
