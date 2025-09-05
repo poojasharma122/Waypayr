@@ -135,7 +135,7 @@ nav li a {
 
 /* banner-section */
 .banner-section {
-    background-image: url('../images/home-banner.jpg');
+    background-image: url('../images/home-bnr-new.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ nav li a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgb(0 0 0 / 36%);
     z-index: 0;
 }
 
